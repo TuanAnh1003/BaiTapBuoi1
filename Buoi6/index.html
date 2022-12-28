@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+        }   
+        .container{
+            width: 100%;
+            padding-top: 200px;
+            padding-bottom: 200px;
+            background-color: aliceblue;
+        }
+        .container-box{
+            display: flex;
+            justify-content: center;
+        }
+        .line{
+            position: relative;
+            width: 100%;
+            height: 2px;
+            background-color: blueviolet;
+            animation: LtoR linear 10s;
+        }
+        @keyframes LtoR{
+            from{
+                transform: translateX(-100%);
+            }
+            to {
+                transform: translateX(0);
+            }
+        }
+        svg{
+            width: 25px;
+            height: 25px;
+            fill: blueviolet;
+        }
+        .box{
+            position: relative;
+            left: 0;
+            top: 68px;
+            z-index: 999;
+            color: blueviolet;
+            padding: 0 120px 0 120px;
+        }
+        .box-1{
+            opacity: 0;
+            animation: fadeIn 1s 1.5s;
+            animation-fill-mode: forwards;
+        }
+        .box-2{
+            opacity: 0;
+            animation: fadeIn 1s 3.6s;
+            animation-fill-mode: forwards;
+        }
+        .box-3{
+            opacity: 0;
+            animation: fadeIn 1s 5.5s;
+            animation-fill-mode: forwards;
+        }
+        .box-4{
+            opacity: 0;
+            animation: fadeIn 1s 8s;
+            animation-fill-mode: forwards;
+        }
+        @keyframes fadeIn{
+            from{
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="container-box">
+            <div class="box box-1">
+                <h3>DAY 1-2</h3>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M160 256C160 202.1 202.1 160 256 160C309 160 352 202.1 352 256C352 309 309 352 256 352C202.1 352 160 309 160 256zM512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256zM256 48C141.1 48 48 141.1 48 256C48 370.9 141.1 464 256 464C370.9 464 464 370.9 464 256C464 141.1 370.9 48 256 48z"/></svg>
+                <p>aaaaaaaaaaa</p>
+            </div>
+            <div class="box box-2">
+                <h3>DAY 1-2</h3>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M160 256C160 202.1 202.1 160 256 160C309 160 352 202.1 352 256C352 309 309 352 256 352C202.1 352 160 309 160 256zM512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256zM256 48C141.1 48 48 141.1 48 256C48 370.9 141.1 464 256 464C370.9 464 464 370.9 464 256C464 141.1 370.9 48 256 48z"/></svg>
+                <p>aaaaaaaaaaa</p>
+            </div>
+            <div class="box box-3">
+                <h3>DAY 1-2</h3>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M160 256C160 202.1 202.1 160 256 160C309 160 352 202.1 352 256C352 309 309 352 256 352C202.1 352 160 309 160 256zM512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256zM256 48C141.1 48 48 141.1 48 256C48 370.9 141.1 464 256 464C370.9 464 464 370.9 464 256C464 141.1 370.9 48 256 48z"/></svg>
+                <p>aaaaaaaaaaa</p>
+            </div>
+            <div class="box box-4">
+                <h3>DAY 1-2</h3>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M160 256C160 202.1 202.1 160 256 160C309 160 352 202.1 352 256C352 309 309 352 256 352C202.1 352 160 309 160 256zM512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256zM256 48C141.1 48 48 141.1 48 256C48 370.9 141.1 464 256 464C370.9 464 464 370.9 464 256C464 141.1 370.9 48 256 48z"/></svg>
+                <p>aaaaaaaaaaa</p>
+            </div>
+        </div>
+        <div class="line"></div>
+    </div>
+</body>
+</html>

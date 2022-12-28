@@ -1,0 +1,19 @@
+1. Position
+    + Relative
+    + Absolute
+    + Fixed
+    + Sticky
+Fixed vs Sticky: Fixed dính vào trình duyệt, Sticky bám dính và dính vào trình duyệt khi nó đến mép trên hoặc dưới của trình duyệt
+2. Peseudo
+    + ::before
+        Tạo một lớp giả (content) và luôn đứng ở đầu trước các thẻ con của thẻ hiện tại 
+    + ::after
+        Tạo một lớp giả (content) và luôn đứng ở cuối sau các thẻ con của thẻ hiện tại
+
+
+
+header 
+banner
+paralax
+slick library https://kenwheeler.github.io/slick/
+https://animate.style/

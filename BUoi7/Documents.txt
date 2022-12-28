@@ -1,0 +1,29 @@
+1. Các thuộc tính chủ yếu tạo nên hiệu ứng 3D
+Perspective
+    Perspective sẽ cho ta thấy được chiều sâu của thành phần, khoảng chiều sâu được tính từ điểm đặt ban đầu tới giá trị của perspective (theo đơn vị pixel).
+3D transform function
+    Như transform nhưng thêm trục z
+Rotation
+    Transform CSS Rotate là một cấu trúc xoay vòng. Theo mặc định thì các phần tử sẽ xoay xung quanh trục tâm của nó.
+Sử dụng để điều chỉnh kích thước (co, giãn) đối tượng.
+    scaleZ(): giãn theo chiều Z (giống như thổi bóng bay dài hoặc bóng ba con sói ấy, nó dãn ra theo chiều trước mặt bạn - trục z so với mắt)
+    scale3d(): function tổng hợp rút gọn giãn theo cả 3 chiều X, Y, Z
+Translate
+    Sử dụng để quyết định đường di chuyển của đối tượng
+    translateZ(): di chuyển theo trục Z
+    translate3d(): function tổng hợp rút gọn di chuyển theo 3 trục X, Y, Z
+2. Reponsive
+Reponsive là kỹ thuật giúp trang web hiển thị thương thích với nhiều kích thước màn hình khác nhau
+Tối ưu trải nghiệm người dùng 
+Media Query có thể giúp ta nhận biết được thiết bị truy cập thông qua những thuộc tính của nó. Media Query giúp chúng ta áp dụng những CSS rules khác nhau cho những thiết bị có khích cỡ màn hình khác nhau. Từ đó ta có thể đạt được mục đích của mình đó là hiện thị những nội dung khác nhau (cả hình ảnh, hay text) với những thiết bị khác nhau.
+@media media_type (feature:value) { rules }
+Breakpoint là những điểm (phạm vi giới hạn) mà tại đó nội dung của website sẽ co dãn một cách linh hoạt phụ thuộc vào chiều rộng của thiết bị nhằm đem đến cho người xem một trải nghiệm tuyệt vời và hoàn hảo nhất.
+
+
+
+#features{
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    margin-left: 200px;
+}
